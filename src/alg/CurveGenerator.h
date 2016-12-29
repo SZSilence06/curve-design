@@ -30,7 +30,7 @@ private:
      double error_percentage;
      int current_index;
 
-     double desired_mean_curvature;
+     double desired_total_curvature;
 
      std::vector< std::vector<size_t> > vertex_neighbours;
 

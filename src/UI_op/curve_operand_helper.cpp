@@ -66,7 +66,7 @@ void curve_operand_helper::fit_curve(bool is_loop)
     CurveGenerator curve_generator(mesh);
     DebugTimer timer("timer 1");
     timer.start();
-    curve_generator.computeCurve(control_points, is_loop, 0.1, 0.01, curve);
+    curve_generator.computeCurve(control_points, is_loop, 0.1, 0.02, curve);
     timer.end();
 
     clear_curve();

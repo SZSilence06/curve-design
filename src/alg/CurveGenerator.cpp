@@ -32,13 +32,13 @@ bool CurveGenerator::computeCurve(std::vector<size_t> &control_points, bool is_l
     while (true)
     {
         i++;
-        smooth();
-        handleCriticalVertices();
-        if(isFinished() || i >= 200)
+        smooth();     
+        if(isFinished() || i >= 100)
         {
             std::cout << "Finished smoothing after " << i << " iterations." << std::endl;
             break;
         }
+        handleCriticalVertices();
     }
 
     outCurve = matrixr_t(3, curve.size());
@@ -79,20 +79,15 @@ bool CurveGenerator::initialize(std::vector<size_t> &control_points, bool is_loo
 
         curve.push_back(p);
     }
+
+    desired_total_curvature = 0;
+
     for(int i = 1; i < curve.size() - 1; i++)
     {
         double curvature = computeCurvature(i);
         curve[i].desiredCurvature = curvature * t;
         curve[i].lastCurvature = curve[i].desiredCurvature;
-        desired_mean_curvature += curve[i].desiredCurvature;
-    }
-    if(curve.size() > 2)
-    {
-        desired_mean_curvature /= (curve.size() - 2);
-    }
-    else
-    {
-        desired_mean_curvature = 0;
+        desired_total_curvature += curve[i].desiredCurvature;
     }
 
     return true;
@@ -841,7 +836,7 @@ double CurveGenerator::computeLength(Curve curve)
 bool CurveGenerator::isFinished()
 {   
     bool result = true;
-    double mean_curvature = 0;
+    double total_curvature = 0;
     for(int i = 1; i < curve.size() - 1; i++)
     {
         if(curve[i].is_control_point)
@@ -858,26 +853,18 @@ bool CurveGenerator::isFinished()
         }
 
         double curvature = computeCurvature(i);
-        mean_curvature += curvature;
+        total_curvature += curvature;
         if( fabs(curvature - curve[i].lastCurvature) / curve[i].lastCurvature > error_percentage)
         {
             result = false;
         }
         curve[i].lastCurvature = curvature;
     }
-    if(curve.size() > 2)
-    {
-        mean_curvature /= curve.size() - 2;
-    }
-    else
-    {
-        mean_curvature = 0;
-    }
-    if(desired_mean_curvature == 0)
+    if(desired_total_curvature == 0)
     {
         return true;
     }
-    if(fabs(mean_curvature - desired_mean_curvature) / desired_mean_curvature < error_percentage)
+    if(fabs(total_curvature - desired_total_curvature) / desired_total_curvature < error_percentage)
     {
         return true;
     }
