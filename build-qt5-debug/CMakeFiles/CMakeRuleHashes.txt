@@ -1,3 +1,0 @@
-# Hashes of file build rules.
-6d164177ae8cfbcb5a4ad5648c5ba251 src/GUI-qt/CMakeFiles/GUI-qt_automoc
-4f06eb66c64206e9d01a41dbda26fe4e src/qt_platform/CMakeFiles/qt_platform_automoc

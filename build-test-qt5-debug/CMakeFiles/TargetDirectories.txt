@@ -1,3 +1,0 @@
-/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-test-qt5-debug/alg/CMakeFiles/alg.dir
-/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-test-qt5-debug/CMakeFiles/framework-test.dir
-/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-test-qt5-debug/globals/CMakeFiles/globals.dir
