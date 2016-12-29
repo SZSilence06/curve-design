@@ -1,0 +1,947 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="framework" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\share\;CMake Files\..\..\..\..\..\usr\share\cmake\;CMake Files\..\..\..\..\..\usr\share\cmake\Modules\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5OpenGL\;CMake Files\src\;CMake Files\src\app\;CMake Files\src\globals\;CMake Files\src\UI_op\;CMake Files\src\working_space\;CMake Files\src\working_space_render\;CMake Files\src\GUI-qt\;CMake Files\src\qt_platform\;CMake Files\src\alg\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="app">
+         <Option output="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/lib/libappd.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/app" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/3rd/include" />
+            <Add directory="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/common" />
+            <Add directory="/home/zju/usr/Linux/64/gcc4/include" />
+            <Add directory="/home/zju/usr/Linux/64/include" />
+            <Add directory="/home/zju/usr/Linux/include" />
+            <Add directory="/home/zju/usr/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/qt5" />
+            <Add directory="/usr/include/qt5/QtCore" />
+            <Add directory="/usr/include/qt5/QtGui" />
+            <Add directory="/usr/include/qt5/QtOpenGL" />
+            <Add directory="/usr/include/qt5/QtWidgets" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/app/Makefile&quot;  VERBOSE=1 app" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/app/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/app/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/app/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="app/fast">
+         <Option output="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/lib/libappd.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/app" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/3rd/include" />
+            <Add directory="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/common" />
+            <Add directory="/home/zju/usr/Linux/64/gcc4/include" />
+            <Add directory="/home/zju/usr/Linux/64/include" />
+            <Add directory="/home/zju/usr/Linux/include" />
+            <Add directory="/home/zju/usr/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/qt5" />
+            <Add directory="/usr/include/qt5/QtCore" />
+            <Add directory="/usr/include/qt5/QtGui" />
+            <Add directory="/usr/include/qt5/QtOpenGL" />
+            <Add directory="/usr/include/qt5/QtWidgets" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/app/Makefile&quot;  VERBOSE=1 app/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/app/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/app/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/app/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="globals">
+         <Option output="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/lib/libglobalsd.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/globals" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/3rd/include" />
+            <Add directory="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/common" />
+            <Add directory="/home/zju/usr/Linux/64/gcc4/include" />
+            <Add directory="/home/zju/usr/Linux/64/include" />
+            <Add directory="/home/zju/usr/Linux/include" />
+            <Add directory="/home/zju/usr/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/globals/Makefile&quot;  VERBOSE=1 globals" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/globals/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/globals/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/globals/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="globals/fast">
+         <Option output="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/lib/libglobalsd.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/globals" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/3rd/include" />
+            <Add directory="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/common" />
+            <Add directory="/home/zju/usr/Linux/64/gcc4/include" />
+            <Add directory="/home/zju/usr/Linux/64/include" />
+            <Add directory="/home/zju/usr/Linux/include" />
+            <Add directory="/home/zju/usr/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/globals/Makefile&quot;  VERBOSE=1 globals/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/globals/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/globals/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/globals/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="UI_op">
+         <Option output="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/lib/libUI_opd.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/UI_op" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/3rd/include" />
+            <Add directory="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/common" />
+            <Add directory="/home/zju/usr/Linux/64/gcc4/include" />
+            <Add directory="/home/zju/usr/Linux/64/include" />
+            <Add directory="/home/zju/usr/Linux/include" />
+            <Add directory="/home/zju/usr/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/UI_op/Makefile&quot;  VERBOSE=1 UI_op" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/UI_op/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/UI_op/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/UI_op/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="UI_op/fast">
+         <Option output="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/lib/libUI_opd.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/UI_op" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/3rd/include" />
+            <Add directory="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/common" />
+            <Add directory="/home/zju/usr/Linux/64/gcc4/include" />
+            <Add directory="/home/zju/usr/Linux/64/include" />
+            <Add directory="/home/zju/usr/Linux/include" />
+            <Add directory="/home/zju/usr/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/UI_op/Makefile&quot;  VERBOSE=1 UI_op/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/UI_op/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/UI_op/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/UI_op/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="working_space">
+         <Option output="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/lib/libworking_spaced.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/working_space" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/3rd/include" />
+            <Add directory="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/common" />
+            <Add directory="/home/zju/usr/Linux/64/gcc4/include" />
+            <Add directory="/home/zju/usr/Linux/64/include" />
+            <Add directory="/home/zju/usr/Linux/include" />
+            <Add directory="/home/zju/usr/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/working_space/Makefile&quot;  VERBOSE=1 working_space" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/working_space/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/working_space/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/working_space/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="working_space/fast">
+         <Option output="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/lib/libworking_spaced.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/working_space" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/3rd/include" />
+            <Add directory="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/common" />
+            <Add directory="/home/zju/usr/Linux/64/gcc4/include" />
+            <Add directory="/home/zju/usr/Linux/64/include" />
+            <Add directory="/home/zju/usr/Linux/include" />
+            <Add directory="/home/zju/usr/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/working_space/Makefile&quot;  VERBOSE=1 working_space/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/working_space/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/working_space/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/working_space/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="working_space_render">
+         <Option output="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/lib/libworking_space_renderd.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/working_space_render" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/3rd/include" />
+            <Add directory="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/common" />
+            <Add directory="/home/zju/usr/Linux/64/gcc4/include" />
+            <Add directory="/home/zju/usr/Linux/64/include" />
+            <Add directory="/home/zju/usr/Linux/include" />
+            <Add directory="/home/zju/usr/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/working_space_render/Makefile&quot;  VERBOSE=1 working_space_render" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/working_space_render/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/working_space_render/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/working_space_render/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="working_space_render/fast">
+         <Option output="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/lib/libworking_space_renderd.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/working_space_render" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/3rd/include" />
+            <Add directory="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/common" />
+            <Add directory="/home/zju/usr/Linux/64/gcc4/include" />
+            <Add directory="/home/zju/usr/Linux/64/include" />
+            <Add directory="/home/zju/usr/Linux/include" />
+            <Add directory="/home/zju/usr/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/working_space_render/Makefile&quot;  VERBOSE=1 working_space_render/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/working_space_render/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/working_space_render/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/working_space_render/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="GUI-qt">
+         <Option output="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/bin/GUI-qt" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_OPENGL_LIB" />
+            <Add directory="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/3rd/include" />
+            <Add directory="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/GUI-qt" />
+            <Add directory="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/GUI-qt" />
+            <Add directory="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/common" />
+            <Add directory="/home/zju/usr/Linux/64/gcc4/include" />
+            <Add directory="/home/zju/usr/Linux/64/include" />
+            <Add directory="/home/zju/usr/Linux/include" />
+            <Add directory="/home/zju/usr/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/qt5" />
+            <Add directory="/usr/include/qt5/QtCore" />
+            <Add directory="/usr/include/qt5/QtGui" />
+            <Add directory="/usr/include/qt5/QtOpenGL" />
+            <Add directory="/usr/include/qt5/QtWidgets" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/GUI-qt/Makefile&quot;  VERBOSE=1 GUI-qt" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/GUI-qt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/GUI-qt/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/GUI-qt/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="GUI-qt/fast">
+         <Option output="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/bin/GUI-qt" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_OPENGL_LIB" />
+            <Add directory="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/3rd/include" />
+            <Add directory="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/GUI-qt" />
+            <Add directory="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/GUI-qt" />
+            <Add directory="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/common" />
+            <Add directory="/home/zju/usr/Linux/64/gcc4/include" />
+            <Add directory="/home/zju/usr/Linux/64/include" />
+            <Add directory="/home/zju/usr/Linux/include" />
+            <Add directory="/home/zju/usr/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/qt5" />
+            <Add directory="/usr/include/qt5/QtCore" />
+            <Add directory="/usr/include/qt5/QtGui" />
+            <Add directory="/usr/include/qt5/QtOpenGL" />
+            <Add directory="/usr/include/qt5/QtWidgets" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/GUI-qt/Makefile&quot;  VERBOSE=1 GUI-qt/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/GUI-qt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/GUI-qt/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/GUI-qt/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="GUI-qt_automoc">
+         <Option working_dir="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/GUI-qt" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/GUI-qt/Makefile&quot;  VERBOSE=1 GUI-qt_automoc" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/GUI-qt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/GUI-qt/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/GUI-qt/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="qt_platform">
+         <Option output="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/lib/libqt_platformd.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/qt_platform" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_PLATFORM_EXPORT" />
+            <Add option="-DQT_OPENGL_LIB" />
+            <Add directory="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/3rd/include" />
+            <Add directory="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/qt_platform" />
+            <Add directory="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/common" />
+            <Add directory="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/qt_platform" />
+            <Add directory="/home/zju/usr/Linux/64/gcc4/include" />
+            <Add directory="/home/zju/usr/Linux/64/include" />
+            <Add directory="/home/zju/usr/Linux/include" />
+            <Add directory="/home/zju/usr/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/qt5" />
+            <Add directory="/usr/include/qt5/QtCore" />
+            <Add directory="/usr/include/qt5/QtGui" />
+            <Add directory="/usr/include/qt5/QtOpenGL" />
+            <Add directory="/usr/include/qt5/QtWidgets" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/qt_platform/Makefile&quot;  VERBOSE=1 qt_platform" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/qt_platform/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/qt_platform/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/qt_platform/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="qt_platform/fast">
+         <Option output="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/lib/libqt_platformd.a" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/qt_platform" />
+         <Option object_output="./" />
+         <Option type="2" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_PLATFORM_EXPORT" />
+            <Add option="-DQT_OPENGL_LIB" />
+            <Add directory="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/3rd/include" />
+            <Add directory="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/qt_platform" />
+            <Add directory="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/common" />
+            <Add directory="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/qt_platform" />
+            <Add directory="/home/zju/usr/Linux/64/gcc4/include" />
+            <Add directory="/home/zju/usr/Linux/64/include" />
+            <Add directory="/home/zju/usr/Linux/include" />
+            <Add directory="/home/zju/usr/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/qt5" />
+            <Add directory="/usr/include/qt5/QtCore" />
+            <Add directory="/usr/include/qt5/QtGui" />
+            <Add directory="/usr/include/qt5/QtOpenGL" />
+            <Add directory="/usr/include/qt5/QtWidgets" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/qt_platform/Makefile&quot;  VERBOSE=1 qt_platform/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/qt_platform/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/qt_platform/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/qt_platform/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="qt_platform_automoc">
+         <Option working_dir="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/qt_platform" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/qt_platform/Makefile&quot;  VERBOSE=1 qt_platform_automoc" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/qt_platform/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/qt_platform/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/qt_platform/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="alg">
+         <Option output="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/lib/libalgd.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/alg" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/3rd/include" />
+            <Add directory="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/alg/EIGEN3_INCLUDE_DIR" />
+            <Add directory="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/common" />
+            <Add directory="/home/zju/usr/Linux/64/gcc4/include" />
+            <Add directory="/home/zju/usr/Linux/64/include" />
+            <Add directory="/home/zju/usr/Linux/include" />
+            <Add directory="/home/zju/usr/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/alg/Makefile&quot;  VERBOSE=1 alg" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/alg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/alg/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/alg/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="alg/fast">
+         <Option output="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/lib/libalgd.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/alg" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/3rd/include" />
+            <Add directory="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/alg/EIGEN3_INCLUDE_DIR" />
+            <Add directory="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/common" />
+            <Add directory="/home/zju/usr/Linux/64/gcc4/include" />
+            <Add directory="/home/zju/usr/Linux/64/include" />
+            <Add directory="/home/zju/usr/Linux/include" />
+            <Add directory="/home/zju/usr/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.8" />
+            <Add directory="/usr/include/c++/4.8/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.8" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/alg/Makefile&quot;  VERBOSE=1 alg/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/alg/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/alg/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/alg/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/GUI-qt/main.cpp">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/UI_op/common_procedure.cpp">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/UI_op/curve_operand_helper.cpp">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/UI_op/fsm.cpp">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/UI_op/state_run.cpp">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/UI_op/state_select_vertex.cpp">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/UI_op/ui_handler.cpp">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/alg/CurveGenerator.cpp">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/alg/CurveGenerator2.cpp">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/alg/GeodesicGenerator.cpp">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/alg/Mesh.cpp">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/alg/curve_interp.cpp">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/alg/projection.cpp">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/app/app.cpp">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/globals/GlobalData.cpp">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/globals/debug_util.cpp">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/globals/geometry.cpp">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/globals/globals.cpp">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/qt_platform/cmenu.cpp">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/qt_platform/osg_tools.cpp">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/qt_platform/osg_utils.cpp">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/qt_platform/qevent_adapter.cpp">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/qt_platform/qt_mainwindow.cpp">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/qt_platform/qt_osgwidget.cpp">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/qt_platform/qt_osgwidget2d.cpp">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/qt_platform/qt_wnd_server.cpp">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/working_space/data_tree.cpp">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/working_space/def_ctrl.cpp">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/working_space/line.cpp">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/working_space/mesh.cpp">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/working_space/message_queue.cpp">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/working_space/sphere.cpp">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/working_space/trimesh.cpp">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/working_space/working_space.cpp">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/working_space_render/def_ctrl_render.cpp">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/working_space_render/line_render.cpp">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/working_space_render/scene_view.cpp">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/working_space_render/sphere_render.cpp">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/working_space_render/tri_mesh_render.cpp">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/working_space_render/trimesh_render.cpp">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/UI_op/common_procedure.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/UI_op/conf.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/UI_op/curve_operand_helper.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/UI_op/event_interface.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/UI_op/finite_state_machine.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/UI_op/fsm.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/UI_op/state_run.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/UI_op/state_select_vertex.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/UI_op/ui_handler.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/alg/CurveGenerator.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/alg/CurveGenerator2.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/alg/GeodesicGenerator.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/alg/Mesh.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/alg/conf.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/alg/curve_interp.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/alg/projection.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/app/app.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/app/conf.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/globals/GlobalData.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/globals/debug_util.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/globals/geometry.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/globals/globals.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/globals/user_guide.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/qt_platform/cmenu.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/qt_platform/conf.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/qt_platform/customize_trackballmanipulator.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/qt_platform/mystring.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/qt_platform/osg_tools.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/qt_platform/osg_utils.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/qt_platform/platform.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/qt_platform/qevent_adapter.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/qt_platform/qt_mainwindow.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/qt_platform/qt_osgwidget.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/qt_platform/qt_osgwidget2d.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/qt_platform/qt_wnd_server.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/working_space/conf.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/working_space/data_tree.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/working_space/def_ctrl.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/working_space/line.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/working_space/locked_shared_ptr.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/working_space/mesh.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/working_space/message_queue.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/working_space/model.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/working_space/singleton.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/working_space/sphere.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/working_space/trimesh.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/working_space/working_space.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/working_space_render/conf.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/working_space_render/def_ctrl_render.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/working_space_render/line_render.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/working_space_render/mesh_render.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/working_space_render/scene_view.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/working_space_render/sphere_render.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/working_space_render/tri_mesh_render.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/working_space_render/trimesh_render.h">
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/default.cmake">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/../../../../../usr/share/cmake/Modules/geo_sim_sdk.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\cmake\Modules\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/../../../../../usr/share/cmake/Modules/cmake_uninstall.cmake.in">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\usr\share\cmake\Modules\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5OpenGL/Qt5OpenGLConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5OpenGL\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5OpenGL/Qt5OpenGLConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5OpenGL\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5OpenGL/Qt5OpenGLConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5OpenGL\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5OpenGL/Qt5OpenGLConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5OpenGL\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5OpenGL/Qt5OpenGLConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5OpenGL\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5OpenGL/Qt5OpenGLConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5OpenGL\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/app/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\app\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/globals/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\globals\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/UI_op/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\UI_op\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/working_space/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\working_space\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/working_space_render/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\working_space_render\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/GUI-qt/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\GUI-qt\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/qt_platform/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\qt_platform\" />
+      </Unit>
+      <Unit filename="/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/src/alg/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\src\alg\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

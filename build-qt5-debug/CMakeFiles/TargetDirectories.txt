@@ -1,0 +1,10 @@
+/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/GUI-qt/CMakeFiles/GUI-qt.dir
+/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/GUI-qt/CMakeFiles/GUI-qt_automoc.dir
+/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/UI_op/CMakeFiles/UI_op.dir
+/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/alg/CMakeFiles/alg.dir
+/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/app/CMakeFiles/app.dir
+/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/globals/CMakeFiles/globals.dir
+/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/qt_platform/CMakeFiles/qt_platform.dir
+/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/qt_platform/CMakeFiles/qt_platform_automoc.dir
+/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/working_space/CMakeFiles/working_space.dir
+/home/zju/program/svn/KaiyiWang/trunk/framework_cleanup/build-qt5-debug/src/working_space_render/CMakeFiles/working_space_render.dir
