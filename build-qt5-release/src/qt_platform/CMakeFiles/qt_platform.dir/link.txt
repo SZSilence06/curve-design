@@ -1,2 +1,0 @@
-/usr/bin/ar cr ../../lib/libqt_platform.a  CMakeFiles/qt_platform.dir/osg_utils.cpp.o CMakeFiles/qt_platform.dir/qt_mainwindow.cpp.o CMakeFiles/qt_platform.dir/cmenu.cpp.o CMakeFiles/qt_platform.dir/osg_tools.cpp.o CMakeFiles/qt_platform.dir/qt_osgwidget.cpp.o CMakeFiles/qt_platform.dir/qt_wnd_server.cpp.o CMakeFiles/qt_platform.dir/qt_osgwidget2d.cpp.o CMakeFiles/qt_platform.dir/qevent_adapter.cpp.o CMakeFiles/qt_platform.dir/qt_platform_automoc.cpp.o
-/usr/bin/ranlib ../../lib/libqt_platform.a
